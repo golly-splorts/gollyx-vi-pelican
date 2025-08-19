@@ -1,8 +1,7 @@
 #!/bin/bash
 
-export GOLLYX_PELICAN_HOME="~/golly/pelican/gollyx-vi-pelican"
+export GOLLYX_PELICAN_HOME="$HOME/golly/pelican/gollyx-vi-pelican"
 export GOLLYX_UI_PORT="8000"
-export GOLLYX_API_PORT="8989"
 
 export GOLLYX_BASE_UI="http://localhost:${GOLLYX_UI_PORT}"
 export GOLLYX_BASE_API="https://cloud.vi.golly456.life"
